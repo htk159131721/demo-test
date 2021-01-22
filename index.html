@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="assets/css/tailwind.css" rel="stylesheet">
+	<link href="assets/css/custom.css" rel="stylesheet">
+	<script src="assets/js/index.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container-custom mx-auto my-10 mx-24 h-screen">
+		<div class="header">
+			<div class="header-mask pb-16 px-4">
+				<h1 class="pt-10 pb-2 text-white text-2xl font-semibold">Welcome</h1>
+				<span class="txt-under-header text-sm">24/7 security provided</span>
+			</div>
+		</div>
+		<div class="main">
+			<div class="w-11/12 mx-auto">
+				<div class="main-top ">
+					<strong class="pt-7 pb-2 block">Available Accounts</strong>
+				</div>
+				<!-- items -->
+				<div class="main-content flex flex-col justify-center items-center">
+					<div class="item w-full bg-white flex flex-row justify-between items-center py-4 my-1 cursor-pointer">
+						<div style="width: 50px; height: 50px;" class="flex justify-center items-center item-left mr-1 ml-3 bg-gray-100 rounded">
+							<img src="./assets/images/logo1.png" alt="Logo" width="40" height="40">
+						</div>
+						<div class="item-center">
+							<strong class="pb-1">Vietcombank</strong>
+							<p class="txt-nb font-sans pt-1">0791 2121 3123 2131</p>
+						</div>
+						<div class="item-right justify-self-end self-end mr-3">
+							<button onclick="onCopy('0791 2121 3123 2131')" class="btn-custom w-16 text-green-900 rounded-full text-sm py-1">COPY</button>
+						</div>
+					</div>
+				</div>
+				<!-- items -->
+				<div class="main-content flex flex-col justify-center items-center">
+					<div class="item w-full bg-white flex flex-row justify-between items-center py-4 my-1 cursor-pointer">
+						<div style="width: 50px; height: 50px;" class="flex justify-center items-center item-left mr-1 ml-3 bg-gray-100 rounded">
+							<img src="./assets/images/logo1.png" alt="Logo" width="40" height="40">
+						</div>
+						<div class="item-center">
+							<strong class="pb-1">Vietcombank</strong>
+							<p class="txt-nb font-sans pt-1">0791 2121 3123 2132</p>
+						</div>
+						<div class="item-right justify-self-end self-end mr-3">
+							<button onclick="onCopy('0791 2121 3123 2132')" class="btn-custom w-16 text-green-900 rounded-full text-sm py-1">COPY</button>
+						</div>
+					</div>
+				</div>
+				<!-- items -->
+				<div class="main-content flex flex-col justify-center items-center">
+					<div class="item w-full bg-white flex flex-row justify-between items-center py-4 my-1 cursor-pointer">
+						<div style="width: 50px; height: 50px;" class="flex justify-center items-center item-left mr-1 ml-3 bg-gray-100 rounded">
+							<img src="./assets/images/logo1.png" alt="Logo" width="40" height="40">
+						</div>
+						<div class="item-center">
+							<strong class="pb-1">Vietcombank</strong>
+							<p class="txt-nb font-sans pt-1">0791 2121 3123 2134</p>
+						</div>
+						<div class="item-right justify-self-end self-end mr-3">
+							<button onclick="onCopy('0791 2121 3123 2134')" class="btn-custom w-16 text-green-900 rounded-full text-sm py-1">COPY</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- toast zone -->
+			<div id="snackbar">Copied</div>
+		</div>
+		<div class="footer text-center pb-1">
+			<span>&copy; 2020 All rights reserved</span>
+		</div>
+	</div>
+</body>
+</html>
